@@ -1,0 +1,100 @@
+id_pelicula,titulo,id_director,id_genero,año
+1,"Suzhou River",2,1,0
+2,"Los asesinos de la luna",1,2,0
+3,"Shutter Island",1,3,0
+4,Seven,3,2,0
+5,Casino,1,2,0
+1,"Suzhou River",2,1,0
+2,"Los asesinos de la luna",1,2,0
+3,"Shutter Island",1,3,0
+4,Seven,3,2,0
+5,Casino,1,2,0
+1,"Suzhou River",2,1,0
+2,"Los asesinos de la luna",1,2,0
+3,"Shutter Island",1,3,0
+4,Seven,3,2,0
+5,Casino,1,2,0
+1,"Suzhou River",2,1,2000
+2,"Los asesinos de la luna",1,2,2023
+3,"Shutter Island",1,3,2010
+4,Seven,3,2,1995
+5,Casino,1,2,1995
+1,"Suzhou River",2,1,2000
+2,"Los asesinos de la luna",1,2,2023
+3,"Shutter Island",1,3,2010
+4,Seven,3,2,1995
+5,Casino,1,2,1995
+1,"Suzhou River",2,1,2000
+2,"Los asesinos de la luna",1,2,2023
+3,"Shutter Island",1,3,2010
+4,Seven,3,2,1995
+5,Casino,1,2,1995
+1,"Suzhou River",2,1,2000
+2,"Los asesinos de la luna",1,2,2023
+3,"Shutter Island",1,3,2010
+4,Seven,3,2,1995
+5,Casino,1,2,1995
+id_director,nombre,apellidos,nacionalidad
+1,Martin,Scorsese,EEUU
+2,Lou,Ye,China
+3,David,Fincher,EEUU
+1,Martin,Scorsese,EEUU
+2,Lou,Ye,China
+3,David,Fincher,EEUU
+1,Martin,Scorsese,EEUU
+2,Lou,Ye,China
+3,David,Fincher,EEUU
+1,Martin,Scorsese,EEUU
+2,Lou,Ye,China
+3,David,Fincher,EEUU
+id_actor,nombre,apellidos,nacionalidad
+1,Leonardo,"Di Caprio",
+2,Robert," De Niro",
+3,Lily,Gladstone,
+4,Brad,Pitt,
+5,Morgan,Freeman,
+6,Zhou,Xun,
+1,Leonardo,"Di Caprio",
+2,Robert," De Niro",
+3,Lily,Gladstone,
+4,Brad,Pitt,
+5,Morgan,Freeman,
+6,Zhou,Xun,
+1,Leonardo,"Di Caprio",
+2,Robert," De Niro",
+3,Lily,Gladstone,
+4,Brad,Pitt,
+5,Morgan,Freeman,
+6,Zhou,Xun,
+1,Leonardo,"Di Caprio",
+2,Robert," De Niro",
+3,Lily,Gladstone,
+4,Brad,Pitt,
+5,Morgan,Freeman,
+6,Zhou,Xun,
+id_genero,nombre
+1,Romance
+2,Crimen
+3,Suspenso
+1,Romance
+2,Crimen
+3,Suspenso
+1,Romance
+2,Crimen
+3,Suspenso
+1,Romance
+2,Crimen
+3,Suspenso
+id_pelicula,id_actor,id_participacion,papel
+1,6,1,Moudan
+2,1,2,Ernest
+2,3,3,Mollie
+3,1,4,Teddy
+2,2,5,William
+5,2,6,Sam
+1,6,1,Moudan
+2,1,2,Ernest
+2,3,3,Mollie
+3,1,4,Teddy
+2,2,5,William
+5,2,6,Sam

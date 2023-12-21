@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>EscritorioVirtual.Meteorología</title>
+
+    <meta name ="author" content ="Celia Barral" />
+    <meta name ="description" content ="Información general de Letonia. Incluye la previsión meteorológica de 
+    los próximos 5 días en su capital, Riga" />
+    <meta name ="keywords" content ="Letonia, Riga, Meteorología, tiempo" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+    <link rel ="icon" href="multimedia/imagenes/favicon.ico" type="image/vnd.microsoft.icon">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/pais.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Escritorio Virtual</h1>
+        <nav>
+            <a accesskey="i" tabindex="1" href="index.html">Índice</a>
+            <a accesskey="n" tabindex="2" href="noticias.html">Noticias</a>
+            <a accesskey="s" tabindex="3" href="sobremi.html">Sobre Mí</a>
+            <a accesskey="a" tabindex="4" href="agenda.html">Agenda</a>
+            <a accesskey="j" tabindex="5" href="juegos.html">Juegos</a>
+            <a accesskey="v" tabindex="6" href="viajes.php">Viajes</a>
+            <a accesskey="m" tabindex="7" href="metereologia.html">Meteorología</a>
+        </nav>
+    </header>
+    <h2>Meteorología</h2>
+    <script>
+        pais.getInfoPais();
+        pais.cargarDatos();
+    </script>
+</body>
+</html>

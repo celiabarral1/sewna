@@ -1,0 +1,73 @@
+/*Datos personales
+Celia Barral Juárez
+UO277578
+*/
+
+  /*Especificidad 011*/
+  section:nth-of-type(2){
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.625em;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    
+}
+  /*Especificidad 002*/
+section > h2{
+  text-align: center;
+  flex-basis: 100%;
+  
+}
+  /*Especificidad 001*/
+article {
+    flex-basis:20%;
+    text-align: center;
+    background-color: #868B8E;
+    margin: 0.625em;
+    box-sizing: border-box;
+    border: 0.125em solid black;
+    perspective: 62.5em; 
+    cursor: pointer; 
+
+    transition: transform 0.5s; 
+
+  }
+  /*Especificidad 001*/
+img {
+    transform: rotateY(180deg);
+    backface-visibility: hidden; 
+    transition: transform 0.5s;
+    transform-style: preserve-3d; 
+  }
+
+  /*Especificidad 012,Especificidad 012*/
+article[data-state="flip"] img, article[data-state="revealed"] img{
+  transform: rotateY(0deg);
+}
+  /*Especificidad 012,Especificidad 012*/
+article[data-state="flip"] h4,article[data-state="revealed"] h4  {
+    visibility: hidden; 
+}
+  /*Especificidad 012,Especificidad 012*/
+article[data-state="hidden"] img {
+    transform: rotateY(180deg); 
+  }
+
+/*Redefinición de margin-left,
+margin-right,
+margin-bottom,
+flex-basis para que se adapte a pantallas pequeñas*/
+@media screen and (max-width: 768px) {
+   /*Especificidad 011*/
+  section:nth-of-type(2) {
+    margin-left: 5%; 
+    margin-right: 5%;
+    margin-bottom: 5%; 
+  }
+/*Especificidad 001*/
+  article {
+    flex-basis: calc(25% - 1.25em); 
+  }
+} 

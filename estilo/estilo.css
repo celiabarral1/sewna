@@ -1,0 +1,187 @@
+/*Datos personales
+Celia Barral Juárez
+UO277578
+*/
+
+/* Dusty Rose
+#DACAC4
+Scallop Seashell
+#F7C9B6
+Beige
+#DBC39A
+Seafoam Green
+#DAE7DD */
+
+/*Scallop Seashell
+#E7D2CC
+Pewter
+#B9B7BD
+Gray
+#868B8E
+Ivory
+#EEEDE7*/
+
+/*	Hay un color de fondo establecido y no hay color de primer plano*/
+/* Hay warnings en el css pero se resuelven con herencia*/
+
+/*Especificidad 001*/
+/* Advertencia CSS permitida: Hay un color de fondo establecido y no hay color de primer plano
+Hereda */
+body {
+    font-family: Tahoma, sans-serif;
+    color:black;
+    background-color:#f3efed; 
+	  text-align:justify;
+    font-size: 1.25em;
+}
+
+/*Especificidad 002*/
+body > *:not(header) {
+  margin-left: 2%; margin-right: 2%; 
+}
+
+/*Especificidad 001*/
+h2{
+  text-align: center;
+  text-decoration: underline;
+}
+/*Especificidad 001*/
+/* Advertencia CSS permitida: Hay un color de fondo establecido y no hay color de primer plano
+Hereda */
+h3{
+  margin: 0.7em 0;
+  display: inline-block; 
+  background-color: #DACAC4; 
+  padding:0.7em;
+}
+
+/*Hereda el color de fondo.
+Hay un color de primer plano establecido y no hay color de fondo*/
+/*Especificidad 001*/
+a {
+    outline: none;
+    color:black;
+    text-decoration: none;
+    padding: 0.125em 0.3125em 0em;
+  }
+
+  /*	Hereda el color de fondo.
+  Hay un color de primer plano establecido y no hay color de fondo*/
+/*Especificidad 011*/
+  a:link {
+    color: black;
+  }
+
+/*Especificidad 011*/
+a:focus {
+    border-bottom: 0.125em solid;
+    background: #bae498;
+}
+
+/*Especificidad 011*/
+a:hover {
+    border-bottom:  0.125em solid;
+    background: #f3efed;
+}
+
+ /*Especificidad 011*/
+a:active{
+    border-bottom:  0.125em solid;
+}
+
+ /*Especificidad 002*/
+ul >li{
+    margin: 0.1em;
+
+}
+
+
+/*Especificidad 002*/
+ol>li {
+  margin-bottom: 0.3125em; 
+}
+
+ /*Especificidad 002*/
+video,img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Especificidad 001*/
+table {
+    width: 30%;
+    border-collapse: collapse;
+    border: 0.0625em solid #ddd;
+    font-family: Arial, sans-serif;
+  }
+  
+/*Especificidad 001*/
+  caption {
+    font-weight: bold;
+    margin-bottom: 0.625em;
+  }
+  
+  /*Especificidad 001*/
+  th, td {
+    border: 0.0625em solid #ddd;
+    padding:0.5em;
+    text-align: center;
+  }
+  
+  /*Especificidad 001,  Especificidad 011*/
+  th,th[scope="row"] {
+    background-color: #DACAC4;
+    font-weight: bold;
+  }
+  
+  /*Especificidad 001*/
+  dt {
+    text-decoration: underline;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+ /*Especificidad 001*/
+button{
+  align-self: center;
+  padding: 0.625em 1.15em;
+  font-size: 16px;
+  border: none;
+  border-radius: 0.3125em;
+  background-color: #D2B48C;
+  cursor: pointer;
+}
+ /*Especificidad 011*/
+button:hover {
+  background-color: #DACAC4;
+}
+ /*Especificidad 001*/
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625em; 
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+ /*Especificidad 011*/
+input[type="text"] {
+  width: 50%;
+  padding: 0.5em;
+  border: 0.0625em solid #ccc;
+  border-radius: 0.25em;
+}
+
+ /*Especificidad 011*/
+input[type="submit"] {
+  width: 10%;
+  padding: 0.25em;
+  height: 3em; 
+  border: none;
+  border-radius: 0.25em;
+  background-color: #868B8E;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

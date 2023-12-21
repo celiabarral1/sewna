@@ -1,0 +1,40 @@
+/*Datos personales
+Celia Barral Juárez
+UO277578
+*/
+
+/*Especificidad 001*/
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    row-gap: 1.25em;
+    
+}
+
+/*Hereda del body. 
+Hay un color de fondo establecido y no hay color de primer plano*/
+/*Especificidad 001*/
+button{
+  align-self: center;
+  padding: 0.625em 1.25em;
+  font-size: 1em;
+  border: none;
+  border-radius: 0.3125em;
+  background-color: #D2B48C;
+  cursor: pointer;
+}
+
+/*Hereda del body. 
+Hay un color de fondo establecido y no hay color de primer plano*/
+/*Especificidad 011*/
+button:hover {
+  background-color: #DACAC4;
+}
+
+
+/*Especificidad 001*/
+ul{
+  border-bottom: 0.0625em solid #D2B48C; 
+  padding-bottom: 1.875em; 
+}

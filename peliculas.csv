@@ -1,0 +1,28 @@
+id_pelicula,titulo,id_director,id_genero,a
+1,Suzhou River,2,1,2000
+2,Los asesinos de la luna,1,2,2023 
+3,Shutter Island,1,3,2010
+4,Seven,3,2,1995
+5,Casino,1,2,1995
+id_director,nombre,apellidos,pais
+1,Martin,Scorsese,EEUU
+2,Lou,Ye,China
+3,David,Fincher,EEUU
+id_genero,nombre
+1,Romance
+2,Crimen
+3,Suspenso
+id_actor,nombre,apellidos
+1,Leonardo,Di Caprio
+2,Robert, De Niro
+3,Lily,Gladstone
+4,Brad,Pitt
+5,Morgan,Freeman
+6,Zhou,Xun
+id_participacion,id_pelicula,id_actor,papel
+1,1,6,Moudan
+2,2,1,Ernest
+3,2,3,Mollie
+4,3,1,Teddy
+5,2,2,William
+6,5,2,Sam

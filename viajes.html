@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Viajes</title>
+
+    <meta name ="author" content ="Celia Barral" />
+    <meta name ="description" content ="plantilla para desarrollar los documentos
+    .html del sitio web" />
+    <meta name ="keywords" content ="Plantilla, HTML" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/viajes.css" />
+    <link rel ="icon" href="multimedia/imagenes/favicon.ico" type="image/vnd.microsoft.icon">
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>Escritorio Virtual</h1>
+        <nav>
+            <a accesskey="i" tabindex="1" href="index.html">Índice</a>
+            <a accesskey="n" tabindex="2" href="noticias.html">Noticias</a>
+            <a accesskey="s" tabindex="3" href="sobremi.html">Sobre Mí</a>
+            <a accesskey="a" tabindex="4" href="agenda.html">Agenda</a>
+            <a accesskey="j" tabindex="5" href="juegos.html">Juegos</a>
+            <a accesskey="v" tabindex="6" href="viajes.php">Viajes</a>
+            <a accesskey="m" tabindex="7" href="metereologia.html">Meteorología</a>
+        </nav>
+    </header>
+    <h2>Viajes</h2>
+    <main>
+        <section>
+            <h3>Mapas</h3>
+        </section>
+        <article>
+      
+            
+        </article>
+        
+    </main>
+    <section>
+        <h3>Seleccione un archivo XML: </h3>
+      
+        <p><label for="archivoxml">Selecciona un archivo XML:</label>
+            <input type="file" id="archivoxml" onchange="viajes.readInputFile(this.files);" accept=".xml" ></p>
+
+    </section>
+    <section>
+        <h3>Seleccione un archivo KML: </h3>
+      
+        <p><label for="archivokml">Selecciona un archivo KML:</label><input type="file" 
+            id="archivokml" onchange="viajes.readInputFileKml(this.files);" accept=".kml" multiple></p>
+    </section>
+    <section>
+        <h3>Seleccione un archivo SVG: </h3>
+      
+        <p><label for="archivoSVG">Selecciona un archivo SVG:</label>
+            <input type="file" id="archivoSVG" onchange="viajes.readInputFileSvg(this.files);" accept=".svg" multiple></p>
+        <section><h4>Datos SVG</h4></section>
+
+    </section>
+    <script src = "js/viajes.js"></script>
+</body>
+</html>

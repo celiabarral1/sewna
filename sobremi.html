@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>EscritorioVirtual.SobreMi</title>
+
+    <meta name ="author" content ="Celia Barral" />
+    <meta name ="description" content ="Datos personales sobre Celia, autora del documento.
+    Resumen de sus aficiones y gustos preferidos." />
+    <meta name ="keywords" content ="Datos, favorita, aficiones" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+   
+     <!-- <link rel="stylesheet" type="text/css" href="estilo/layout-datospersonales.css" />-->
+    <link rel ="icon" href="multimedia/imagenes/favicon.ico" type="image/vnd.microsoft.icon">
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>Escritorio Virtual</h1>
+        <nav>
+            <a accesskey="i" tabindex="1" href="index.html">Índice</a>
+            <a accesskey="n" tabindex="2" href="noticias.html">Noticias</a>
+            <a accesskey="s" tabindex="3" href="sobremi.html">Sobre Mí</a>
+            <a accesskey="a" tabindex="4" href="agenda.html">Agenda</a>
+            <a accesskey="j" tabindex="5" href="juegos.html">Juegos</a>
+            <a accesskey="v" tabindex="6" href="viajes.php">Viajes</a>
+            <a accesskey="m" tabindex="7" href="metereologia.html">Meteorología</a>
+        </nav>
+    </header>
+    <!-- <main> -->
+        <h2>Sobre mí</h2>
+        <section>
+          <h3>Datos personales</h3>  
+            <p>Soy Celia Barral Juárez, estudiante de la Universidad de Oviedo en el grado de Ingeniería Informática del Software y mi uo es 277578. Nací en Asturias, concretamente en Avilés y me 
+                siento afortunada por ello. Valoro mucho vivir en un sitio tan natural y con tanta variedad de costa y de montaña, ya que una de las cosas que más me gustan,
+                sobretodo en verano, es poder pasar el día en la playa.
+            </p>
+            <P>Actualmente tengo 22 años, y estoy en una etapa en la que disfruto mucho de viajar con mis amigos, conocer gente nueva y compartir
+                mis aficiones con ellas, como son el cine, la música y también salir a bailar. Si queréis poneros en contacto conmigo, mi correo
+                profesional es uo277578@uniovi.es
+            </p>
+            <picture>
+                <source media="(max-width: 465px)" srcset="multimedia/imagenes/fotomia-465.jpeg">
+                <source media="(max-width: 799px)" srcset="multimedia/imagenes/fotomia-799.jpeg">
+                <source media="(min-width: 800px)" srcset="multimedia/imagenes/fotomia-800.jpeg">
+                <img src="multimedia/imagenes/fotomiared.jpeg" alt="foto personal">
+            </picture>
+        </section>
+        <section>
+            <h3>Mis aficiones</h3>
+                <ul>
+                    <li>Cine
+                        <ul>
+                            <li>Independiente</li>
+                            <li>Thiller psicológico</li>
+                            <li>Clásico</li>	
+                        </ul>
+                    </li>
+                    <li>Moda</li>
+                    <li>Bailar</li>
+                    <li>Música
+                        <ul>
+                            <li>Hyper Pop</li>
+                            <li>Rap americano</li>
+                            <li>Clásico</li>	
+                        </ul>
+                    </li>
+                    <li>Leer</li>
+                    <li>Viajar</li>
+                </ul>
+            <h4>Mis cantantes/grupos favoritos</h4>
+                <ol>
+                    <li>Sticky ma</li>
+                    <li>Tyler, The Creator</li>
+                    <li>Rosalía</li>
+                    <li>Rusowsky</li>
+                    <li>Klangkuenstler</li>
+                    <li>Kanye West</li>
+                </ol>
+            <h4>Mis asignaturas favoritas</h4>
+                <dl> 
+                    <dt>Diseño del Software</dt>
+                    <dd>Me gustó mucho porque noté que aprendí y asenté las bases que posibilitan luego enfrentarse al diseño y construcción de software aplicando
+                        los patrones existentes, concretamente, orientado al paradigma de objetos. </dd>
+                    <dt>Sistemas Operativos</dt>
+                    <dd>Cuando la cursé sentí que era una asignatura muy diferente a las que había cursado, y aunque fuera una asignatura exigente, me pareció 
+                        muy interesante conocer, aunque fuera a escala reducida, como funciona un sistema operativo.</dd>
+                    <dt>Comunicación Persona Máquina</dt>
+                    <dd>Fue la primera asignatua en la que se trabajaba con una interfaz, empezando a hablar de la usabilidad y la accesibilidad. </dd>
+                    <dt>Sistemas Distribuidos e Internet</dt>
+                    <dd>Esta asignatura aborda el desarrollo de aplicaciones software, destacando su naturaleza dinámica y los cambios significativos que ha experimentado a lo largo del tiempo.
+                        Se centra en estudiar las tecnologías fundamentales de estos sistemas y en cómo aplicarlas.</dd>
+                    <dt>Software para dispositivos Móviles</dt>
+                    <dd>Es de las asignaturas que más me ha gustado, y la única en la que se enfoca plenamente en el desarrollo de aplicaciones móviles. Adquirí bastantes conocimientos y 
+                        la aplicación final que hicimos me pareció muy entretenida.
+                    </dd>
+                </dl>
+
+        </section>
+    <!-- </main> -->
+
+   <aside>
+    <h3>Tabla temperaturas</h3>
+    <table>
+            <caption>Temperatura media en Avilés en los 10 últimos años</caption>
+            <tbody>
+              <tr>
+                <th scope="col"> Año </th>
+                <th scope="row" id="Tmedia"> T ºC</th>
+              </tr>
+              <tr>
+                <th scope="row" headers="Tmedia"> 2013</th>
+                <td headers="Tmedia"> 13.7</td>
+              </tr>
+              <tr>
+                <th scope="row" headers="Tmedia"> 2014</th>
+                <td headers="Tmedia"> 14.5</td>
+              </tr>
+              <tr>
+                <th scope="row" headers="Tmedia"> 2015</th>
+                <td headers="Tmedia"> 14.1</td>
+              </tr>
+              <tr>
+                <th scope="row" headers="Tmedia"> 2016</th>
+                <td headers="Tmedia"> 13.8</td>
+              </tr>
+              <tr>
+                <th scope="row" headers="Tmedia"> 2017</th>
+                <td headers="Tmedia"> 13.7</td>
+              </tr>
+              <tr>
+                <th scope="row" headers="Tmedia"> 2018</th>
+                <td headers="Tmedia"> 13.8</td>
+              </tr>
+              <tr>
+                <th scope="row" headers="Tmedia"> 2019</th>
+                <td headers="Tmedia"> 13.8</td>
+              </tr>
+              <tr>
+                <th scope="row" headers="Tmedia"> 2020</th>
+                <td headers="Tmedia"> 14.3</td>
+              </tr>
+              <tr>
+                <th scope="row" headers="Tmedia"> 2021</th>
+                <td headers="Tmedia"> 13.7</td>
+              </tr>
+              <tr>
+                <th scope="row" headers="Tmedia"> 2022</th>
+                <td headers="Tmedia"> 14.6</td>
+              </tr>
+              <tr>
+                <th scope="row" headers="Tmedia"> 2023</th>
+                <td headers="Tmedia"> 2023</td>
+              </tr>
+            </tbody>
+          </table>
+   </aside>
+   
+    <section>
+        <h3>Curiosidades sobre mis cosas favoritas</h3>
+
+            <h4>Mi libro favorito</h4>
+            <p>Es difícil elegir solamente uno pero, de los más recientes, uno de los que más he disfrutado leyendo es 
+                <a href="https://www.casadellibro.com/libro-hamnet/9788417977580/12134635"> Hamnet</a> escrito por Maggie O Farrel.
+            </p>
+            <p>Otro con el que aprendí y me entretuve mucho fue  
+                <a href="https://www.casadellibro.com/libro-ni-musas-ni-sumisas/9788402426567/12804267">Ni musas, ni sumisas</a>. Si os gusta el arte y os interesa 
+                desde un punto de vista feminista, es un acierto.
+            </p>
+
+            <h4>Mi canción favorita</h4>
+            <p>Os dejo el enlace para que podáis escuchar la canción 
+                <a href="https://www.youtube.com/watch?v=V1ZPhcY37z0&pp=ygUQYnJ1aml0YSBydXNvd3NreQ%3D%3D"> Brujita - Rusowsky</a>
+                , así como el audio directamente.
+            </p>
+            <audio controls>
+                <source src="multimedia/audios/brujita.mp3" type="audio/mp3">
+                <source src="multimedia/audios/brujita_wav.wav" type="audio/wav">
+            </audio>
+
+            <h4>Mi película favorita</h4>
+            <p>Una de mis principales aficiones, sin duda, es el cine. Desde pequeña en mi casa ha habido siempre la costumbre de ver películas,
+                de ir al cine, y de abstraerse gracias a ello. A lo largo de los años mis gustos han ido cambiando y aún lo seguirán haciendo, 
+                pero también se han ido asentado y ello me ha permitido descubrir películas que me han encantado.
+            </p>
+            <p> Una película que he visto recientemente y que me ha gustado mucho es La Doncella. Aquí podéis ver su caratula.</p>
+            <picture>
+                <source media="(max-width: 465px)" srcset="multimedia/imagenes/la_doncella_original_1.jpg">
+                <source media="(max-width: 799px)" srcset="multimedia/imagenes/la_doncella_original_2.jpg">
+                <source media="(min-width: 800px)" srcset="multimedia/imagenes/la_doncella_original_3.jpg">
+                <img src="multimedia/imagenes/la_doncella_original_3.jpg" alt="carátula la doncella">
+            </picture>
+            <p>Está dirigda por Park Chan-wook y desde mi opinión, si os atrae la estética asiática estoy segura de que la disfrutareis. Podéis echarle
+                un ojo al tráiler justo aquí.
+            </p>
+            
+            <video controls preload="auto">
+                <source src="multimedia/videos/ladoncella-trailer-mp4_BcFJeOip.mp4" type="video/mp4">
+                <source  src="multimedia/videos/ladoncella-trailer-mp4_799.webm" type="vidoe/webm">
+
+            </video>
+    </section>
+</body>
+</html>

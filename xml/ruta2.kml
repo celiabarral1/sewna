@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="Universidad de Oviedo">
+<Placemark>
+<name>Paseo en bici por el casco antiguo de Riga</name>
+<description> Paseo en bici por el hermoso casco antiguo y enclave natural desde Vagonu a Riga.</description>
+<Point>
+<coordinates> 
+24.1562069865055,56.94448826737883
+</coordinates> 
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+</Document>
+</kml>

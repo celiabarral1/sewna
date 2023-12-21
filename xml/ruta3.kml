@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="Universidad de Oviedo">
+<Placemark>
+<name>Sendero de la playa de Lilaste</name>
+<description>Ruta de senderismo por Carnikava.</description>
+<Point>
+<coordinates> 
+24.33648,57.18187
+</coordinates> 
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+</Document>
+</kml>

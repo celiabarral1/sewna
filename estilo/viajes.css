@@ -1,0 +1,33 @@
+/*Datos personales
+Celia Barral Juárez
+UO277578
+*/
+
+/*Especifidad 001*/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Especifidad 011, Especifidad 011,Especifidad 013,*/
+section:first-child,article, body > section:nth-child(5) > section {
+  display: inline-block;
+  width: 80%;
+  margin: 0.2em auto;
+  overflow: hidden;
+  position: relative;
+}
+/*Especifidad 011,Especifidad 013,*/
+article,body > section:nth-child(5) > section {
+  height: 37em;
+}
+
+/*Especifidad 001*/
+ img {
+  width: 100%;
+  object-fit: cover;
+  
+}
+

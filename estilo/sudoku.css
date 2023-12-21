@@ -1,0 +1,49 @@
+/*Datos personales
+Celia Barral Juárez
+UO277578
+*/
+
+/*Especificidad 001*/
+main{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr); 
+  grid-template-rows: repeat(9, 1fr); 
+  width: 60%;
+  height: 90vh; 
+  /* width: 31.25em ;
+  height: 31.25em ; */
+  border: 0.125em solid black;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+/*Especificidad 001*/
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: 1px solid gray;
+  font-size: 1.25em;
+}
+/*Especificidad 011,Especificidad 011*/
+p[data-state="unclicked"],p[data-state="correct"]{
+  cursor: pointer; 
+}
+/*Especificidad 011*/
+p[data-state="blocked"]{
+  font-weight: bold;
+}
+
+
+/*Especificidad 011*/
+p:nth-child(3n){
+  border-right: 0.125em solid black;
+}
+
+/*Especificidad 021, Especificidad 021*/
+p:nth-child(n + 19):nth-child(-n + 27),p:nth-child(n + 46):nth-child(-n + 54) {
+  border-bottom: 0.125em solid black;
+}
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="Universidad de Oviedo">
+<Placemark>
+<name>Parque Nacional de Gauja</name>
+<description> Ruta circular de 6,6-km cerca de Municipalidad de Sigulda, Vidzeme. Por lo general, se considera una ruta moderada, que se tarda una media de 1 h 57 min en recorrer. 
+	Es una región muy popular para disfrutar de la observación de aves, el senderismo y pasear.</description>
+<Point>
+<coordinates> 
+24.844,57.1607
+</coordinates> 
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Noticias</title>
+
+    <meta name ="author" content ="Celia Barral" />
+    <meta name ="description" content ="plantilla para desarrollar los documentos
+    .html del sitio web" />
+    <meta name ="keywords" content ="Plantilla, HTML" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/noticias.css" />
+    <link rel ="icon" href="multimedia/imagenes/favicon.ico" type="image/vnd.microsoft.icon">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/noticias.js"></script>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1>Escritorio Virtual</h1>
+        <nav>
+            <a accesskey="i" tabindex="1" href="index.html">Índice</a>
+            <a accesskey="n" tabindex="2" href="noticias.html">Noticias</a>
+            <a accesskey="s" tabindex="3" href="sobremi.html">Sobre Mí</a>
+            <a accesskey="a" tabindex="4" href="agenda.html">Agenda</a>
+            <a accesskey="j" tabindex="5" href="juegos.html">Juegos</a>
+            <a accesskey="v" tabindex="6" href="viajes.html">Viajes</a>
+            <a accesskey="m" tabindex="7" href="metereologia.html">Meteorología</a>
+        </nav>
+    </header>
+    
+    <script>
+        var noticias = new Noticias();
+    </script>
+
+    <h2>Noticias</h2>
+    
+    <section>
+        <h3>Sección de noticias </h3>
+      
+        <p><label for="archivoTexto">Selecciona un archivo de texto: </label>
+            <input type="file" id="archivoTexto" onchange="noticias.readInputFile(this.files);"></p>
+
+    </section>
+    
+    
+    
+</body>
+</html>

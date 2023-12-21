@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800px" height="400px" >
+<polyline points="40,200.0 196,199.0 352,189.0 508,195.0 664,200.0 664,200.0 40,200.0" style="fill:white;stroke:red;stroke-width:4" /> 
+<text x="40" y ="200"  style="writing-mode: tb; glyph-orientation-vertical: 0;">Inicio</text><text x="196" y ="200"  style="writing-mode: tb; glyph-orientation-vertical: 0;">Playa de Lilaste</text><text x="352" y ="200"  style="writing-mode: tb; glyph-orientation-vertical: 0;">Museo Carnikava</text><text x="508" y ="200"  style="writing-mode: tb; glyph-orientation-vertical: 0;">Playa de Carnikava</text><text x="664" y ="200"  style="writing-mode: tb; glyph-orientation-vertical: 0;">Final</text></svg>

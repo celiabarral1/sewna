@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+  <ruta nombre="Parque Nacional de Gauja" tipo="Senderismo">
+    <fechaInicio>2023-06-01</fechaInicio>
+    <horaInicio>10:00:00</horaInicio>
+    <duracion>PT2H</duracion>
+    <agencia>AllTrais</agencia>
+    <descripcion>
+      Ruta circular de 6,6-km cerca de Municipalidad de Sigulda, Vidzeme. Por lo general, se considera una ruta moderada, que se tarda una media de 1 h 57 min en recorrer.
+      Es una región muy popular para disfrutar de la observación de aves, el senderismo y pasear.
+    </descripcion>
+    <personas>Todo tipo</personas>
+    <lugarInicio>Ribera del río Gauja</lugarInicio>
+    <direccionInicio>3A - 22 Leona Paegles iela, Sigulda Sigulda 2150</direccionInicio>
+    <coordenadas>
+      <longitud>57.1607</longitud>
+      <latitud>24.844</latitud>
+      <altitud>98</altitud>
+    </coordenadas>
+    <referencias>
+      <referencia>https://www.alltrails.com/es/explore/trail/latvia/vidzeme/gauja-river-gitmans-cave-sigulda-loop?mobileMap=false</referencia>
+      <referencia>https://www.alltrails.com/es/explore/trail/latvia/vidzeme/sigulda-velnalas-klintis?mobileMap=false</referencia>
+      <referencia>https://www.mediopenique.com/excursion-parque-nacional-gauja-desde-riga/</referencia>
+    </referencias>
+    <recomendacion>8</recomendacion>
+    <hito nombre="Cueva de Gutmanis">
+      <descripcion>Es la cueva más profunda en los países bálticos</descripcion>
+      <coordenadas>
+        <longitud>57.176307765987</longitud>
+        <latitud>24.842310395105</latitud>
+        <altitud>55</altitud>
+      </coordenadas>
+      <distancia unidades="km">3</distancia>
+      <fotos>
+        <foto>./multimedia/imagenes/gutmanis.jpg</foto>
+      </fotos>
+      <videos>
+        <video></video>
+      </videos>
+    </hito>
+    <hito nombre="Castillo Medieval en Sigulda">
+      <descripcion>
+        Construido por los Hermanos de la Espada de Livonia, que más tarde se incorporaron a la Orden Teutónica del castillo,
+        por lo que el castillo finalmente pasó a ser propiedad de la Orden de Livonia.
+      </descripcion>
+      <coordenadas>
+        <longitud>57.171906448733424</longitud>
+        <latitud>24.848587991068808</latitud>
+        <altitud>73</altitud>
+      </coordenadas>
+      <distancia unidades="km">5</distancia>
+      <fotos>
+        <foto>./multimedia/imagenes/sigulda1.jpg</foto>
+      </fotos>
+      <videos>
+        <video></video>
+      </videos>
+    </hito>
+    <hito nombre="Paradise Hill">
+      <descripcion>Mirador del parque natural de Siguilda.</descripcion>
+      <coordenadas>
+        <longitud>57.17581596932001</longitud>
+        <latitud>24.865781835485024</latitud>
+        <altitud>44</altitud>
+      </coordenadas>
+      <distancia unidades="km">7</distancia>
+      <fotos>
+        <foto>./multimedia/imagenes/parqueNacionalGauja.jpg</foto>
+        <foto>./multimedia/imagenes/Letonia_PNGauja.jpg</foto>
+      </fotos>
+      <videos>
+        <video></video>
+      </videos>
+    </hito>
+
+  </ruta>
+
+  <ruta nombre="Paseo en bici por el casco antiguo de Riga" tipo="Bicicleta">
+    <fechaInicio>2023-06-07</fechaInicio>
+    <horaInicio>09:00:00</horaInicio>
+    <duracion>PT5H</duracion>
+    <agencia>Koomot</agencia>
+    <descripcion> Paseo en bici por el hermoso casco antiguo y enclave natural desde Vagonu a Riga.</descripcion>
+    <personas>Buena forma física. Que sepan andar bien en bici.</personas>
+    <lugarInicio>Estación de tren de Vagonu</lugarInicio>
+    <direccionInicio>Vagonu parks, Dzelzceļa stacija, Mazā Matīsa iela 2, Latgales priekšpilsēta, Rīga, LV-1009, Letonia</direccionInicio>
+    <coordenadas>
+      <longitud>56.94448826737883</longitud>
+      <latitud>24.1562069865055</latitud>
+      <altitud>13</altitud>
+    </coordenadas>
+    <referencias>
+      <referencia>https://www.komoot.com/es-es/smarttour/16984266</referencia>
+      <referencia>https://es.wikiloc.com/rutas/outdoor/letonia/riga</referencia>
+      <referencia>https://www.getyourguide.es/riga-l213/lo-mas-destacado-de-riga-en-bicicleta-t462598/</referencia>
+    </referencias>
+    <recomendacion>7</recomendacion>
+    <hito nombre="Monumento a la Libertad (Brīvības piemineklis)">
+      <descripcion>Monumento construido en honor a los soldados que murieron durante la Guerra de Independencia de Letonia.</descripcion>
+      <coordenadas>
+        <longitud>56.95156948786059</longitud>
+        <latitud>24.113304299999996</latitud>
+        <altitud>6</altitud>
+      </coordenadas>
+      <distancia unidades="km">55</distancia>
+      <fotos>
+        <foto>./multimedia/imagenes/monumento_libertad.jpg</foto>
+      </fotos>
+      <videos>
+        <video></video>
+      </videos>
+    </hito>
+    <hito nombre="Casa de los Cabezas Negras">
+      <descripcion>
+        Edificio de estilo gótico construido en 1334 con bodegas medievales y una colección de objetos de plata de los presidentes.
+      </descripcion>
+      <coordenadas>
+        <longitud>56.94739496451387</longitud>
+        <latitud>24.10682862878455</latitud>
+        <altitud>6</altitud>
+      </coordenadas>
+      <distancia unidades="km">10</distancia>
+      <fotos>
+        <foto>./multimedia/imagenes/faro.jpg</foto>
+      </fotos>
+      <videos>
+        <video></video>
+      </videos>
+    </hito>
+    <hito nombre="Jardín de Vermanes">
+      <descripcion>
+        Tiene una longitud de 33 km y está cubierta de una arena de cuarzo blanco. Las aguas costeras son poco profundas y el mar se encuentra en una calma absoluta.
+        Una de las playas más concurrida de la costa báltica y tiene instalaciones con juegos para los niños, campos de voleivol, etc.
+      </descripcion>
+      <coordenadas>
+        <longitud>56.951720092304896</longitud>
+        <latitud> 24.118719296470918</latitud>
+        <altitud>8</altitud>
+      </coordenadas>
+      <distancia unidades="km">18</distancia>
+      <fotos>
+        <foto>./multimedia/imagenes/playa_juramalas.jpg</foto>
+        <foto>./multimedia/imagenes/juramala_sunset.jpg</foto>
+      </fotos>
+      <videos>
+        <video></video>
+      </videos>
+    </hito>
+  </ruta>
+
+  <ruta nombre="Sendero de la playa de Lilaste" tipo="Senderismo">
+    <fechaInicio>2023-06-13</fechaInicio>
+    <horaInicio>11:30:00</horaInicio>
+    <duracion>PT3H</duracion>
+    <agencia>AllTrails</agencia>
+    <descripcion>Ruta de senderismo por Carnikava.</descripcion>
+    <personas>Apto para niños.</personas>
+    <lugarInicio>Parking de la playa de Lilaste</lugarInicio>
+    <direccionInicio>Ziemeļu iela 6, Lilaste, Carnikavas pagasts, Ādažu novads, LV-2163, Letonia</direccionInicio>
+    <coordenadas>
+      <longitud>57.18187</longitud>
+      <latitud>24.33648</latitud>
+      <altitud>3</altitud>
+    </coordenadas>
+    <referencias>
+      <referencia>https://www.alltrails.com/es/explore/trail/latvia/vidzeme/lilaste-beach-path?mobileMap=false&amp;ref=sidebar-static-map</referencia>
+      <referencia>https://visitbaltics.net/plyazh-v-lilaste-latviya/</referencia>
+      <referencia>https://beachsearcher.com/en/beach/428201053/lilaste-beach</referencia>
+      <referencia>https://beachsearcher.com/en/beach/428201051/carnikava-beach</referencia>
+    </referencias>
+    <recomendacion>9</recomendacion>
+    <hito nombre="Playa de Lilaste">
+      <descripcion>Playa del mar Báltico con el agua clara y arena brillante. El agua es cálida y está rodeade de naturaleza.</descripcion>
+      <coordenadas>
+        <longitud>57.188509161731446</longitud>
+        <latitud> 24.32671081534067</latitud>
+        <altitud>1</altitud>
+      </coordenadas>
+      <distancia unidades="km">25</distancia>
+      <fotos>
+        <foto>./multimedia/imagenes/lilaste.jpg</foto>
+      </fotos>
+      <videos>
+        <video></video>
+      </videos>
+    </hito>
+    <hito nombre="Museo Carnikava">
+      <descripcion>Museo sobre la cultura e historia de la región.</descripcion>
+      <coordenadas>
+        <longitud>57.135608380028444</longitud>
+        <latitud>24.27275050069076</latitud>
+        <altitud>11</altitud>
+      </coordenadas>
+      <distancia unidades="km">2</distancia>
+      <fotos>
+        <foto>./multimedia/imagenes/museo_letonia.jpg</foto>
+      </fotos>
+      <videos>
+        <video></video>
+      </videos>
+    </hito>
+    <hito nombre="Playa de Carnikava">
+      <descripcion>Situado en la bahía de Riga desempeñó un papel importante en la Primera y Segunda Guerra Mundial.</descripcion>
+      <coordenadas>
+        <longitud>57.14378078069625</longitud>
+        <latitud>24.237525193697742</latitud>
+        <altitud>5</altitud>
+      </coordenadas>
+      <distancia unidades="km">11</distancia>
+      <fotos>
+        <foto>./multimedia/imagenes/carnikava1.jpg</foto>
+      </fotos>
+      <videos>
+        <video></video>
+      </videos>
+    </hito>
+
+  </ruta>
+</rutas>
